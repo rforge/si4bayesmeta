@@ -11,7 +11,7 @@ BC_normal_sd1sd0(sd1, sd0)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{sd1}{standard deviation of the first normal density
+  \item{sd1}{standard deviation of the first normal density 
 %%     ~~Describe \code{sd1} here~~
 }
   \item{sd0}{standard deviation of the second normal density
