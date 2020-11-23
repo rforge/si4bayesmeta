@@ -82,6 +82,7 @@ res_d2BC_S_I_rlmc025_HC_raw
 
 
 #####################################
+library(rjags)
 # settings
 nchains<-4
 nadapt<-4000
