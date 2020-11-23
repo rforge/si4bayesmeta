@@ -15,7 +15,6 @@ and severity of COVID-19 disease. Most studies were from mainland China. Diabete
   A data frame with 24 observations on the following 11 variables:
   \describe{
     \item{\code{studyName}}{character string, label of the study}
-    %TODO: specify the direction of the OR
     \item{\code{y}}{numeric, log odds ratio estimates for the individual trials}
     \item{\code{sigma}}{numeric, standard error of the log odds ratio estimate for the individual trials}
     \item{\code{labels}}{integer, the index of the study}
