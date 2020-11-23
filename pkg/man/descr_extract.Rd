@@ -32,7 +32,7 @@ descr_extract(res_l, res_0, res_u)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Research Synthesis Methods.
+\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Biometrical Journal (under revision).
 %% ~put references to the literature/web site here ~
 }
 

@@ -28,7 +28,7 @@ h_choice_all(df)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Research Synthesis Methods. 
+\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Biometrical Journal (under revision). 
 
 Roos, M., Martins, T., Held, L., Rue, H. (2015). Sensitivity analysis for Bayesian hierarchical models. Bayesian Analysis 10(2), 321-349. https://projecteuclid.org/euclid.ba/1422884977
 %% ~put references to the literature/web site here ~

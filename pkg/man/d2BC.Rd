@@ -4,7 +4,7 @@
 \title{The second derivative of the Bhattacharyya coefficient
 %%  ~~function to do ... ~~
 }
-\description{Computes the second derivative of the Bhattacharyya coefficient between two normal densities given a matrix with descriptive statistics. The matrix contains the means and standard deviations for all the parameters in a Bayesian NNHM.   
+\description{Computes the second derivative of the Bhattacharyya coefficient between two normal densities given a matrix with descriptive statistics. The matrix contains the means and standard deviations for all the parameters in a Bayesian NNHM or NtHM.   
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -29,7 +29,7 @@ d2BC(descr_collect, hh)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Research Synthesis Methods. 
+\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Biometrical Journal (under revision). 
 %% ~put references to the literature/web site here ~
 }
 %% ~Make other sections like Warning with \section{Warning }{....} ~

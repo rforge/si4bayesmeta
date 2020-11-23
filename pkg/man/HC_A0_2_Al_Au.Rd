@@ -4,7 +4,7 @@
 \title{Epsilon-grid for a HC heterogeneity prior
 %%  ~~function to do ... ~~
 }
-\description{Returns the epsilon-grid for HC(\code{A0}) heterogeneity prior according to Ott et al. (2019).
+\description{Returns the epsilon-grid for HC(\code{A0}) heterogeneity prior according to Ott et al. (2020).
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -23,7 +23,7 @@ HC_A0_2_Al_Au(AA0, eps = grid_epsilon)
 %%H(HC(AAl), HC(AA0))=eps and H(HC(AAu), HC(AA0))=eps,
 \deqn{H(HC(AAl), HC(AA0))=eps,}
 \deqn{H(HC(AAu), HC(AA0))=eps.}
-See more details in Ott et al. (2019).
+See more details in Ott et al. (2020).
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{A vector of two scale parameters \code{AAl} and \code{AAu}, that is, the local epsilon-grid for the HC distribution which consists of two scale parameters \code{AAl} and \code{AAu}.
@@ -33,7 +33,7 @@ See more details in Ott et al. (2019).
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Ott, M., Hunanyan, S., Held, L., Roos, M. (2019). The relative latent model complexity adjustment for heterogeneity prior specification in Bayesian meta-analysis. Research Synthesis Methods (under revision). 
+\references{Ott, M., Hunanyan, S., Held, L., Roos, M. (2020). The relative latent model complexity adjustment for heterogeneity prior specification in Bayesian meta-analysis. Statistical Methods in Medical Research (in preparation). 
 %% ~put references to the literature/web site here ~
 }
 

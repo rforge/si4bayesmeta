@@ -1,7 +1,7 @@
 \name{raw_estimates_HN}
 \alias{raw_estimates_HN}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Raw estimates for the Bayesian meta-analysis expressed by a Bayesian NNHM with a HN heterogeneity prior
+\title{Raw estimates for the Bayesian meta-analysis expressed by a Bayesian NNHM with a HN heterogeneity prior in bayesmeta
 %%  ~~function to do ... ~~
 }
 \description{Computes the raw estimates for a Bayesian NNHM with a RLMC-adjusted HN heterogeneity prior given a target RLMC according to Roos et al. (2020).
@@ -32,7 +32,7 @@ raw_estimates_HN(df, rlmc = 0.5, mu_mean = 0, mu_sd = 4)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H., (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Research Synthesis Methods. 
+\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H., (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Biometrical Journal (under revision). 
 %% ~put references to the literature/web site here ~
 }
 

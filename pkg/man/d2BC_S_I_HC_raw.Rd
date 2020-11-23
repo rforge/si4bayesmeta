@@ -1,10 +1,10 @@
 \name{d2BC_S_I_HC_raw}
 \alias{d2BC_S_I_HC_raw}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Sensitivity and Identification measure expressed by the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with a HC heterogeneity prior
+\title{Sensitivity and Identification measure expressed by the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with a HC heterogeneity prior fitted by bayesmeta.
 %%  ~~function to do ... ~~
 }
-\description{Returns the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with respect to Priori and Likelihood perturbations given a HC heterogeneity prior.
+\description{Returns the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with respect to Priori and Likelihood perturbations given a HC heterogeneity prior .
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -28,7 +28,7 @@ d2BC_S_I_HC_raw(df, hh, rlmc = 0.5, mu_mean = 0, mu_sd = 4)
 %%     ~~Describe \code{mu_sd} here~~
 }
 }
-\details{Provides the Sensitivity and Identification estimates according to Roos et al. (2020). Sensitivity quantification is performed by a HC heterogeneity prior perturbation in a Bayesian NNHM with a fixed likelihood. Identification quantification is obtained by likelihood perturbation in a Bayesian NNHM with a fixed HC heterogeneity prior. The measure is based on the computation of second derivatives of the Bhattacharyya coefficient with respect to RLMC at a base RLMC value. 
+\details{Provides the Sensitivity and Identification estimates according to Roos et al. (2020). Sensitivity quantification is performed by a HC heterogeneity prior perturbation in a Bayesian NNHM with a fixed likelihood. Identification quantification is obtained by likelihood perturbation in a Bayesian NNHM with a fixed HC heterogeneity prior. The measure is based on the computation of second derivatives of the Bhattacharyya coefficient with respect to RLMC evaluated at a base RLMC value. 
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{Table with the S-I (sensitivity-identification) measure: with sensitivity ("S_d2BC_P") and identification ("I_d2BC_L").
@@ -38,7 +38,7 @@ d2BC_S_I_HC_raw(df, hh, rlmc = 0.5, mu_mean = 0, mu_sd = 4)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Research Synthesis Methods.
+\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Biometrical Journal (under revision).
 
 %% ~put references to the literature/web site here ~
 }

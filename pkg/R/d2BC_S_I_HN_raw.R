@@ -153,6 +153,6 @@ function(df, hh, rlmc=0.5,
   res_d2BC_L[,1]<-d2BC(descr_collect=descr_extract(res_l=fit_L_l, res_0=fit_L_0, res_u=fit_L_u), hh=hh)
   
   
-  return(cbind(res_d2BC_P,res_d2BC_L))
+  return(-cbind(res_d2BC_P,res_d2BC_L))
 
 }

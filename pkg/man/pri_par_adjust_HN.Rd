@@ -4,7 +4,7 @@
 \title{RLMC-based adjustment of the scale parameter for a HN distribution
 %%  ~~function to do ... ~~
 }
-\description{Performs a RLMC-based adjustment of the scale parameter for a HN distribution according to Ott et al. (2019). 
+\description{Performs a RLMC-based adjustment of the scale parameter for a HN distribution according to Ott et al. (2020). 
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -27,7 +27,7 @@ pri_par_adjust_HN(df, rlmc = 0.5, tail_prob = 0.5)
 where \eqn{\sigma_{ref}} is the reference standard deviation. 
 The RLMC-adjustment on the median of different heterogeneity priors aligned at \eqn{U_{ref}} reference threshold
 \deqn{P[\tau > U_{ref}]= \alpha = 50 \% . }
-See more details in Ott et al. (2019).
+See more details in Ott et al. (2020).
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{A list of
@@ -38,7 +38,7 @@ See more details in Ott et al. (2019).
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Ott, M., Hunanyan, S., Held, L., Roos, M., (2019). The relative latent model complexity adjustment for heterogeneity prior specification in Bayesian meta-analysis. Research Synthesis Methods (under revision). 
+\references{Ott, M., Hunanyan, S., Held, L., Roos, M., (2020). The relative latent model complexity adjustment for heterogeneity prior specification in Bayesian meta-analysis. Statistical Methods in Medical Research (in preparation). 
 %% ~put references to the literature/web site here ~
 }
 

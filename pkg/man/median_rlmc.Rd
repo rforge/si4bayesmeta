@@ -4,7 +4,7 @@
 \title{Median RLMC
 %%  ~~function to do ... ~~
 }
-\description{Computes the median RLMC by the Monte Carlo simulation according to Ott et al. (2019)
+\description{Computes the median RLMC by the Monte Carlo simulation according to Ott et al. (2020)
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -26,7 +26,7 @@ median_rlmc(df, r.tau.prior, MM = 1e+06, seed.value = 12567)
 }
 }
 \details{Given the MC sample \eqn{{RLMC^{(j)}, j = 1, \ldots, J}}, the median RLMC is \deqn{MRLMC = Median({RLMC^{(j)}, j = 1, \ldots, J)}. } 
-See more details in Ott et al. (2019).
+See more details in Ott et al. (2020).
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{\item{median_rlmc}{MRLMC computed given individual study-specific sigmai values }
@@ -37,7 +37,7 @@ See more details in Ott et al. (2019).
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Ott, M., Hunanyan, S., Held, L., Roos, M. (2019). The relative latent model complexity adjustment for heterogeneity prior specification in Bayesian meta-analysis. Research Synthesis Methods (under revision). 
+\references{Ott, M., Hunanyan, S., Held, L., Roos, M. (2020). The relative latent model complexity adjustment for heterogeneity prior specification in Bayesian meta-analysis. Statistical Methods in Medical Research (in preparation). 
 %% ~put references to the literature/web site here ~
 }
 
