@@ -1,9 +1,9 @@
 importFrom("stats", "integrate", "uniroot", "median",  "qnorm" )
 importFrom("bayesmeta", "bayesmeta",  "dhalfcauchy", "rhalfnormal")
 importFrom("stats", "quantile", "sd", "update")
-importFrom(rjags, "jags.model", "adapt", "coda.samples", "list.modules",
+importFrom("rjags", "jags.model", "adapt", "coda.samples", "list.modules",
            "load.module","unload.module")
-importFrom(coda, "as.mcmc.list", "thin", "mcmc", "as.mcmc")
+importFrom("coda", "as.mcmc.list", "thin", "mcmc", "as.mcmc")
 
 export(BC_normal_m1m0)
 export(BC_normal_sd1sd0)
