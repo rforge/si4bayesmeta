@@ -7,7 +7,7 @@ Author: Sona Hunanyan [aut, cre], Malgorzata Roos [aut]
 Maintainer: Sona Hunanyan <sona.hunanyan@uzh.ch>
 Description: Sensitivity and identification estimates for all the parameters in the Bayesian normal-normal hierarchical model (NNHM) and in the Bayesian normal-Student t hierarchical model (NtHM) induced by a Half-Normal (HN) and a Half-Cauchy (HC) heterogeneity priors in JAGS are produced by 4 functions for Bayesian NNHM fitted either with bayesmeta or JAGS and 2 functions for Bayesian NtHM fitted with JAGS. Six scenarios are considered: target relative latent model complexity (RLMC) values fixed at 0.25, 0.5 and 0.75 with RLMC-adjusted HN and HC heterogeneity priors. Corresponding posterior estimates can be obtained by the functions of raw_estimates_type. The methodology implemented in this package has been developed in Roos et al. (2020).
 License: GPL (>=2)
-Depends: bayesmeta
-SystemRequirements:	JAGS 4.x.y
-Imports: rjags
+Depends: bayesmeta, R (>= 3.5.0)
+Imports: dclone, rjags (≥ 3-13), coda (≥ 0.13)
+SystemRequirements:	JAGS (http://mcmc-jags.sourceforge.net)
 
