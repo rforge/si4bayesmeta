@@ -9,5 +9,5 @@ Description: Sensitivity and identification estimates for all the parameters in 
 License: GPL (>=2)
 Depends: bayesmeta, R (>= 3.5.0)
 Imports: rjags (>= 3-13), coda (>= 0.13)
-SystemRequirements:	JAGS 4.x.y
+SystemRequirements:	JAGS-4.x.y.exe (x >=0, y>=0)
 
