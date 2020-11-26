@@ -156,6 +156,6 @@ function(df, hh, rlmc=0.5,
   
 
   
-  return(-cbind(res_d2BC_P,res_d2BC_L))
+  return(cbind(res_d2BC_P,res_d2BC_L))
   
 }

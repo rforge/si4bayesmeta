@@ -15,7 +15,7 @@ function(df, rlmc=0.5, mu_mean=0, mu_sd=4){
   
   kk<-length(df$y)
   reff<-paste(rep("theta_",kk),c(1:kk), sep="")
-  names_row<-c("mu", "tau", reff, "theta_new")
+  names_row<-c("mu", "log_tau", reff, "theta_new")
   names_col<-c("estimate_mean", "estimate_sd", "estimate_CI_low", "estimate_CI_up", "length_estimate_CI")
   no_rows<-length(names_row)
   no_cols<-length(names_col)

@@ -1,6 +1,5 @@
 HC_A0_2_Al_Au <-
 function(AA0, eps=grid_epsilon){
-  grid_epsilon <- NULL
   ## epsilon-grid for HC(A0) according to Ott et al. (2019)
   ## AA0: scale parameter of the base half Cauchy distribution
   ## eps: epsilon for the epsilon local grid

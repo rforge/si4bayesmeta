@@ -1,10 +1,10 @@
 \name{d2BC_S_I_HN_raw}
 \alias{d2BC_S_I_HN_raw}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Sensitivity and Identification measure expressed by the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with a HN heterogeneity prior in bayesmeta
+\title{Sensitivity and Identification measure expressed by the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with a HN heterogeneity prior
 %%  ~~function to do ... ~~
 }
-\description{Returns the second derivative of Bhattacharyya coefficient for a Bayesian NNHM with respect to Priori and Likelihood perturbations given a HN heterogeneity prior fitted by bayesmeta.
+\description{Returns the second derivative of Bhattacharyya coefficient for a Bayesian NNHM with respect to Priori and Likelihood perturbations given a HN heterogeneity prior.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -28,7 +28,7 @@ d2BC_S_I_HN_raw(df, hh, rlmc = 0.5, mu_mean = 0, mu_sd = 4)
 %%     ~~Describe \code{mu_sd} here~~
 }
 }
-\details{Provides the Sensitivity and Identification estimates according to Roos et al. (2020). Sensitivity quantification is performed by a HN heterogeneity prior perturbation in a Bayesian NNHM with a fixed likelihood. Identification quantification is obtained by likelihood perturbation in a Bayesian NNHM with a fixed HN heterogeneity prior. The measure is based on the computation of second derivatives of the Bhattacharyya coefficient with respect to RLMC evaluated at a base RLMC value. 
+\details{Provides the Sensitivity and Identification estimates according to Roos et al. (2020). Sensitivity quantification is performed by a HN heterogeneity prior perturbation in a Bayesian NNHM with a fixed likelihood. Identification quantification is obtained by likelihood perturbation in a Bayesian NNHM with a fixed HN heterogeneity prior. The measure is based on the computation of second derivatives of the Bhattacharyya coefficient with respect to RLMC a ta base RLMC value. 
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{Table with the S-I (sensitivity-identification) measure: with sensitivity ("S_d2BC_P") and identification ("I_d2BC_L").
@@ -38,13 +38,13 @@ d2BC_S_I_HN_raw(df, hh, rlmc = 0.5, mu_mean = 0, mu_sd = 4)
 %%  \item{comp2 }{Description of 'comp2'}
 %% ...
 }
-\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Biometrical Journal (under revision).
+\references{Roos, M., Hunanyan, S., Bakka, H., Rue, H. (2020). Sensitivity and identification quantification by a relative latent model complexity perturbation in the Bayesian meta-analysis. Manuscript submitted to Research Synthesis Methods.
 %% ~put references to the literature/web site here ~
 }
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{\code{\link{pri_par_adjust_HN}}, \code{\link{d2BC}}, \code{\link{descr_extract}}, \code{\link{bayesmeta}} in package \code{\link{bayesmeta}}
+\seealso{\code{\link{pri_par_adjust_HC}}, \code{\link{d2BC}}, \code{\link{descr_extract}}, \code{\link{bayesmeta}} in package \code{\link{bayesmeta}}
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
@@ -64,10 +64,8 @@ df = data.frame(y = log((rT*(nC-rC))/(rC*(nT-rT))),
             sigma = sqrt(1/rT+1/(nT-rT)+1/rC+1/(nC-rC)), 
                   labels = c(1:2))
   
-# Set the normal prior parameter values for mu according to Roever 
-  #2018, bayesmeta
-# Suitable for logOR and log-odds scale with the unit information 
-  #rgument  
+# Set the normal prior parameter values for mu according to Roever 2018, bayesmeta
+# Suitable for logOR and log-odds scale with the unit information argument  
 mu_mean<-0
 mu_sd<-4
 
